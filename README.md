@@ -1,37 +1,42 @@
-🌍 ESG & Emissions Analytics Dashboard
-📘 Project Overview
+# 🌍 ESG & Emissions Analytics Dashboard  
 
-This project simulates a real-world ESG (Environmental, Social, and Governance) data reporting system designed to track and communicate greenhouse gas (GHG) emissions across multiple facilities and supply chain operations.
+### 📘 Project Overview  
+The **ESG & Emissions Analytics System** is designed to help organizations accurately **measure, track, and visualize greenhouse gas (GHG) emissions** across all facilities and supply chain operations.  
+It enables decision-makers to identify trends, monitor carbon offsets, and align sustainability goals with global ESG standards.  
 
-It enables organizations to:
-✅ Measure Scope 1, 2, and 3 emissions accurately.
-✅ Monitor carbon offset efforts and net emissions.
-✅ Visualize ESG performance across countries and transportation modes.
+---
 
-🎯 Project Goals
+### 🎯 Project Goals  
+- Accurately capture GHG emissions data (Scopes 1, 2, and 3) across **8 cities** and **4 countries**.  
+- Monitor **carbon offset** efforts and **net emissions** performance.  
+- Enable decision-makers to take corrective actions and communicate ESG impact with stakeholders.  
 
-Capture GHG emissions across 8 cities and 4 countries (Cameroon, USA, India, Germany).
+---
 
-Monitor offset purchases and net emission trends.
+### 🗂️ Dataset Description  
+This dataset represents **monthly sustainability activity and emission data (2020–2025)** for a single company operating in **Cameroon, USA, India, and Germany**.  
 
-Enable data-driven sustainability reporting via dashboards.
+| Column | Description |
+|--------|--------------|
+| Electricity_Consumption_kWh | Monthly electricity use in kWh → for Scope 2 |
+| Gasoline_Used_L | Liters of fuel consumed → for Scope 1 |
+| Materials_Sourced_Tons | Volume of raw materials procured |
+| Transportation_Mode | Truck / Rail / Ship / Air |
+| Transportation_Distance_km | Distance traveled for logistics |
+| Carbon_Offsets_Purchased_tCO2e | Carbon offsets purchased |
+| Scope 1, 2, 3 Emissions | Direct, indirect, and value-chain emissions |
+| Total Emission (tCO₂e) | Combined Scopes 1 + 2 + 3 |
+| Net Emission (tCO₂e) | Total Emission – Offsets |
+| Sustainability Goal | “Carbon Neutral” or “Needs Improvement” |
 
-Support decision-making for mission reduction strategies.
+---
 
-🧩 Data Description
-Column Name	Description
-*Electricity_Consumption_kWh	Monthly electricity use (kWh) → used to calculate Scope 2 emissions
-*Gasoline_Used_L	Liters of fuel consumed → used for Scope 1 emissions
-*Materials_Sourced_Tons	Total materials sourced (in tons)
-*Transportation_Mode	Mode of transport (Truck / Rail / Ship / Air)
-*Transportation_Distance_km	Distance covered for material transport
-*Carbon_Offsets_Purchased_tCO2e	Total offsets purchased (in tonnes of CO₂e)
-*Scope 1 Emission (tCO₂e)	Direct emissions from company operations
-*Scope 2 Emission (tCO₂e)	Indirect emissions from electricity
-*Scope 3 Emission (tCO₂e)	Supply chain emissions (based on transport)
-*Total Emission (tCO₂e)	Sum of Scope 1 + Scope 2 + Scope 3
-*Net Emission (tCO₂e)	Total Emission – Offsets
-*Sustainability Goal	"Carbon Neutral (YES)" or "Work on broader carbon management strategy (NO)"
+### ⚙️ Excel Calculations  
+
+#### **Scope 1 – Direct Emissions**  
+Represents direct emissions from **fuel combustion** within company assets.  
+Formula:  
+
 
 ⚙️ Calculations Used in Excel
 1️⃣ Scope 1 – Direct Emissions
