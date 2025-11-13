@@ -20,18 +20,19 @@ Support decision-making for mission reduction strategies.
 
 🧩 Data Description
 Column Name	Description
-Electricity_Consumption_kWh	Monthly electricity use (kWh) → used to calculate Scope 2 emissions
-Gasoline_Used_L	Liters of fuel consumed → used for Scope 1 emissions
-Materials_Sourced_Tons	Total materials sourced (in tons)
-Transportation_Mode	Mode of transport (Truck / Rail / Ship / Air)
-Transportation_Distance_km	Distance covered for material transport
-Carbon_Offsets_Purchased_tCO2e	Total offsets purchased (in tonnes of CO₂e)
-Scope 1 Emission (tCO₂e)	Direct emissions from company operations
-Scope 2 Emission (tCO₂e)	Indirect emissions from electricity
-Scope 3 Emission (tCO₂e)	Supply chain emissions (based on transport)
-Total Emission (tCO₂e)	Sum of Scope 1 + Scope 2 + Scope 3
-Net Emission (tCO₂e)	Total Emission – Offsets
-Sustainability Goal	"Carbon Neutral (YES)" or "Work on broader carbon management strategy (NO)"
+*Electricity_Consumption_kWh	Monthly electricity use (kWh) → used to calculate Scope 2 emissions
+*Gasoline_Used_L	Liters of fuel consumed → used for Scope 1 emissions
+*Materials_Sourced_Tons	Total materials sourced (in tons)
+*Transportation_Mode	Mode of transport (Truck / Rail / Ship / Air)
+*Transportation_Distance_km	Distance covered for material transport
+*Carbon_Offsets_Purchased_tCO2e	Total offsets purchased (in tonnes of CO₂e)
+*Scope 1 Emission (tCO₂e)	Direct emissions from company operations
+*Scope 2 Emission (tCO₂e)	Indirect emissions from electricity
+*Scope 3 Emission (tCO₂e)	Supply chain emissions (based on transport)
+*Total Emission (tCO₂e)	Sum of Scope 1 + Scope 2 + Scope 3
+*Net Emission (tCO₂e)	Total Emission – Offsets
+*Sustainability Goal	"Carbon Neutral (YES)" or "Work on broader carbon management strategy (NO)"
+
 ⚙️ Calculations Used in Excel
 1️⃣ Scope 1 – Direct Emissions
 
@@ -88,17 +89,17 @@ Net Emission = Total Emission – Carbon Offsets Purchased
 
 📊 Dashboard KPIs
 KPI	Description / Insight
-Net Emission Rate	Cameroon recorded the highest (27.1 tCO₂e)
-Emissions by Transport Mode	Air > Truck > Rail > Ship
-Top Emitters by Mode	Air – Cameroon, Truck – India, Rail – Germany, Ship – USA
-Offset vs Emissions (2022–2023)	Carbon offsets exceeded emissions → Carbon-positive performance
-Yearly Trend	Sharp drop in 2022 (9 → -17 tCO₂e) likely due to COVID-related operational slowdown
+>>Net Emission Rate	Cameroon recorded the highest (27.1 tCO₂e)
+>>Emissions by Transport Mode	Air > Truck > Rail > Ship
+>>Top Emitters by Mode	Air – Cameroon, Truck – India, Rail – Germany, Ship – USA
+>>Offset vs Emissions (2022–2023)	Carbon offsets exceeded emissions → Carbon-positive performance
+>>Yearly Trend	Sharp drop in 2022 (9 → -17 tCO₂e) likely due to COVID-related operational slowdown
 
 🧮 Key Excel / BI Techniques Used
-Data Cleaning & Validation: Excel Power Query, conditional formulas
-Emission Calculations: IF statements, fixed factors, unit conversions
-Visualization: Power BI / Looker Studio dashboards
-Automation: Monthly form submission → Google Sheets sync → Live BI update
+>> Cleaning & Validation: Excel Power Query, conditional formulas
+>>Emission Calculations: IF statements, fixed factors, unit conversions
+>>Visualization: Power BI / Looker Studio dashboards
+>>Automation: Monthly form submission → Google Sheets sync → Live BI update
 
 Dashboard
 
@@ -107,10 +108,10 @@ Dashboard
 
 🧠 Key Insights
 
-Cameroon recorded the highest residual emissions, requiring targeted reduction strategies.
-Air transport contributed the most to total emissions — potential area for offset or route optimization.
-2022–2023 show strong performance due to offset purchases exceeding emissions.
-Achieved average net zero across all facilities, but continuous monitoring needed for non-neutral locations.
+>>Cameroon recorded the highest residual emissions, requiring targeted reduction strategies.
+>>Air transport contributed the most to total emissions — potential area for offset or route optimization.
+>>2022–2023 show strong performance due to offset purchases exceeding emissions.
+>>Achieved average net zero across all facilities, but continuous monitoring needed for non-neutral locations.
 
 🏁 Conclusion
 
