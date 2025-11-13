@@ -94,17 +94,17 @@ Net Emission = Total Emission – Carbon Offsets Purchased
 
 📊 Dashboard KPIs
 KPI	Description / Insight
->>Net Emission Rate	Cameroon recorded the highest (27.1 tCO₂e)
->>Emissions by Transport Mode	Air > Truck > Rail > Ship
->>Top Emitters by Mode	Air – Cameroon, Truck – India, Rail – Germany, Ship – USA
->>Offset vs Emissions (2022–2023)	Carbon offsets exceeded emissions → Carbon-positive performance
->>Yearly Trend	Sharp drop in 2022 (9 → -17 tCO₂e) likely due to COVID-related operational slowdown
+- Net Emission Rate	Cameroon recorded the highest (27.1 tCO₂e)
+- Emissions by Transport Mode	Air > Truck > Rail > Ship
+- Top Emitters by Mode	Air – Cameroon, Truck – India, Rail – Germany, Ship – USA
+- Offset vs Emissions (2022–2023)	Carbon offsets exceeded emissions → Carbon-positive performance
+- Yearly Trend	Sharp drop in 2022 (9 → -17 tCO₂e) likely due to COVID-related operational slowdown
 
 🧮 Key Excel / BI Techniques Used
->> Cleaning & Validation: Excel Power Query, conditional formulas
->>Emission Calculations: IF statements, fixed factors, unit conversions
->>Visualization: Power BI / Looker Studio dashboards
->>Automation: Monthly form submission → Google Sheets sync → Live BI update
+- Cleaning & Validation: Excel Power Query, conditional formulas
+- Emission Calculations: IF statements, fixed factors, unit conversions
+- Visualization: Power BI / Looker Studio dashboards
+- Automation: Monthly form submission → Google Sheets sync → Live BI update
 
 Dashboard
 
@@ -113,16 +113,16 @@ Dashboard
 
 🧠 Key Insights
 
->>Cameroon recorded the highest residual emissions, requiring targeted reduction strategies.
->>Air transport contributed the most to total emissions — potential area for offset or route optimization.
->>2022–2023 show strong performance due to offset purchases exceeding emissions.
->>Achieved average net zero across all facilities, but continuous monitoring needed for non-neutral locations.
+- Cameroon recorded the highest residual emissions, requiring targeted reduction strategies.
+- Air transport contributed the most to total emissions — potential area for offset or route optimization.
+- 2022–2023 show strong performance due to offset purchases exceeding emissions.
+- Achieved average net zero across all facilities, but continuous monitoring needed for non-neutral locations.
 
 🏁 Conclusion
 
 This project demonstrates a complete ESG data lifecycle — from data collection and emission computation to dashboard visualization.
 It showcases how analytics can help organizations:
-✅ Identify carbon hotspots
-✅ Track sustainability progress
-✅ Communicate impact transparently
+- Identify carbon hotspots
+-  Track sustainability progress
+-  Communicate impact transparently
 
